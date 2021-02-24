@@ -1,5 +1,7 @@
-import { createSlice } from '@reduxjs/toolkit';
 
+
+import { createSlice } from '@reduxjs/toolkit';
+// import { useDetector, useDispatch} from redux - what?
 export const counterSlice = createSlice({
   name: 'counter',
   initialState: {

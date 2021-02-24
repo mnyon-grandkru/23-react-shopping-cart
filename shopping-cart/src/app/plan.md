@@ -1,9 +1,28 @@
+
+CARTS FEATURE
+Products feature -- gets products
+Cart - adds to cart, moves from cart
+
+PRODUCTS FEATURE
+
+
 COMPONENTS:
+
+1.  PRODUCT CARD COMPONENT = T_SHIRTS
+    OBJECT - product
+        --free shipping in black box--
+        image (onClick ADD_TO_CART)
+        title
+        --yellow line--
+        price
+        installments
+        Black button says "Add to cart" with onClick and hover color yellow
+
 
 ADD_TO_CART
 REMOVE_FROM_CART
 INSTALLMENTS
-T_SHIRTS (id)
+T_SHIRTS (id) - Object
 T_TITLE
 THUMBNAIL
 STYLE
@@ -11,14 +30,6 @@ CART
 CART_ITEM
 
 Product card
-    OBJECT - product
-        --free shipping in black box--
-        image T_SHIRTS - onClick ADD_TO_CART
-        title - T_TITLE
-        --yellow line--
-        price
-        INSTALLMENTS - function divides price by # of installments
-        Black button says "Add to cart" with onClick and hover color yellow ADD_TO_CART
 
 Sidebar
     Shopping cart 
