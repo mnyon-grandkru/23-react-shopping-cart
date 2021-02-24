@@ -1,0 +1,9 @@
+.row {
+    display: grid;  
+grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+
+img {
+    height: 70%;
+    width: auto;
+}

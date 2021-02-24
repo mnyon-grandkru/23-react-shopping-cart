@@ -6,6 +6,7 @@ import {
   selectCount,
   selectProducts
 } from './productSlice';
+import styles from './Product.module.css';
 
 // dispatch(increment()) // increment
 
@@ -20,11 +21,16 @@ export function ProductList() {
   }, [])
 
   return (
-    <div>
-        <div>{count}</div>
-        <button onClick={() => dispatch(increment())}>Sup</button>
-        {products.map(product => <p key={product.id}>{product.title}</p>)}
-    </div>
-        
+    <div className="style.row">
+        {/* <div>{count}</div>
+        <button onClick={() => dispatch(increment())}>Sup</button> */}
+        <div className={styles.row}>
+        {products.map(product => <p key={product.id}>
+            <img src={product.img.normal}></img>
+            {product.title}
+            {product.price}
+            {product.installments}</p>)}
+        </div>
+    </div>   
   );
 }

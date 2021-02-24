@@ -1,8 +1,9 @@
 import { Counter } from './features/counter/Counter';
 import React from 'react';
 import {ProductList} from './features/product/ProductList';
+import './App.css'
 
-function Increase_Quantity() {
+function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -24,7 +25,7 @@ function Increase_Quantity() {
 //   );
 // }
 
-export default Increase_Quantity;
+export default App;
 
 
 // import './App.css';
