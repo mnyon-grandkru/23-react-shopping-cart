@@ -44,6 +44,7 @@ function setInstallment(a, b) {
             <ul>{products.map(product => <p key={product.id}>
             <li><img src={product.img.normal} alt={product.title}></img></li>
                 <li className="productTitle">{product.title}</li>
+                <li className="dash">&mdash;</li>
                 <li className="productPrice">${product.price.toFixed(2)}</li>
                 <li className="installmentPrice">or {product.installments} x${setInstallment(product.price, product.installments) }</li>
             <button>Add To Cart</button></p>)}

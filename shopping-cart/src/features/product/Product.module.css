@@ -25,6 +25,10 @@ ul {
 .productCardsContainer .productCard:hover {
           border: 1px solid #eee;
 
+}   
+
+ul  {
+    color: gray;
 }
 
 button {
