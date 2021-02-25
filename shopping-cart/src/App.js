@@ -1,3 +1,8 @@
+// Stefanie notes:  This is so tedious.  I can't stand it.
+// Pretty sure this line of work isn't for me.
+//I spent all of lab on Wednesday trying to help Candice the
+//way Thomas helped me.  She was grateful but her code didn't work.
+
 import { Counter } from './features/counter/Counter';
 import React from 'react';
 import {ProductList} from './features/product/ProductList';
